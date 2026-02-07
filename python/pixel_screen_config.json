@@ -1,0 +1,42 @@
+{
+  "serial": {
+    "port": "/dev/cu.usbmodem1201",
+    "baudrate": 115200,
+    "timeout": 6.0,
+    "crc_enabled": false
+  },
+  "font": {
+    "char_width": 4,
+    "char_height": 3
+  },
+  "renderer": {
+    "start_column": 0,
+    "max_columns": 32,
+    "inter_char_spacing": 1
+  },
+  "hardware": {
+    "hall_timeout_ms": 60000,
+    "step_interval_ms": 10,
+    "skip_hall_home": true
+  },
+  "setup": {
+    "motor_count": 1,
+    "tune_columns": 1,
+    "config_version": 1,
+    "column_encoding": [
+      0, 1, 2, 3,
+      4, 5, 6, 7,
+      8, 9, 10, 11,
+      12, 13, 14, 15
+    ],
+    "position_patterns": [
+      "0000", "0001", "0010", "0011",
+      "0100", "0101", "0110", "0111",
+      "1000", "1001", "1010", "1011",
+      "1100", "1101", "1110", "1111"
+    ],
+    "steps_per_revolution": 0,
+    "direction_forward": true,
+    "completed": false
+  }
+}
